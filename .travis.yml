@@ -1,7 +1,14 @@
 language: node_js
 
+addons:
+  chrome: stable
+
 node_js:
   - "7"
+
+before_install:
+  - npm i -g npm
+
 install:
   - npm install
   
