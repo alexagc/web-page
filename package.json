@@ -6,13 +6,13 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test --watch false",
+    "test": "ng test --code-coverage --watch false",
+    "test:coverage": "cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy:build": "ng build --prod",
     "deploy:push": "angular-cli-ghpages --repo=https://github.com/alexagc/alexagc.github.io.git --branch=master --no-silent",
-    "deploy": "npm run deploy:build && npm run deploy:push",
-    "test:coverage": "./node_modules/.bin/codacy-coverage"
+    "deploy": "npm run deploy:build && npm run deploy:push"
   },
   "private": true,
   "dependencies": {
