@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/alexagc/web-page.svg?branch=master)](https://travis-ci.org/alexagc/web-page) 
+[![Build Status](https://travis-ci.org/alexagc/web-page.svg?branch=master)](https://travis-ci.org/alexagc/web-page) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/391dd29e1dc4450e8ee5a82c3c39dce2)](https://www.codacy.com/app/alexcanal/web-page?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexagc/web-page&amp;utm_campaign=Badge_Grade) [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/391dd29e1dc4450e8ee5a82c3c39dce2)](https://www.codacy.com/app/alexcanal/web-page?utm_source=github.com&utm_medium=referral&utm_content=alexagc/web-page&utm_campaign=Badge_Coverage) [![dependencies Status](https://david-dm.org/alexagc/web-page/status.svg)](https://david-dm.org/alexagc/web-page) [![devDependencies Status](https://david-dm.org/alexagc/web-page/dev-status.svg)](https://david-dm.org/alexagc/web-page?type=dev)
 
 # WebPage
 
