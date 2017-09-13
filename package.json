@@ -11,7 +11,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy:build": "ng build --prod",
-    "deploy:push": "angular-cli-ghpages --repo=https://github.com/alexagc/alexagc.github.io.git --branch=master --no-silent",
+    "deploy:push": "angular-cli-ghpages --repo=https://GH_TOKEN@github.com/alexagc/alexagc.github.io.git --branch=master --no-silent",
     "deploy": "npm run deploy:build && npm run deploy:push"
   },
   "private": true,
