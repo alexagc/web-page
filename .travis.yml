@@ -1,10 +1,12 @@
+sudo: required  
+dist: trusty
 language: node_js
-
+node_js:
+  - "7"
 addons:
   chrome: stable
 
-node_js:
-  - "7"
+
 
 before_install:
   - npm i -g npm
