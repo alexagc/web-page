@@ -8,7 +8,7 @@ node_js:
 
 before_install:
   - npm i -g npm
-  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 
 install:
   - npm install
@@ -16,4 +16,5 @@ install:
 script:
   - npm test
   - npm run e2e
+  - npm run test:coverage
   - npm run deploy
