@@ -10,10 +10,6 @@ cache:
   directories:
   - node_modules
 
-before_install:
-  - npm i -g npm
-  - export CHROME_BIN=/usr/bin/google-chrome
-
 install:
   - npm install
   
@@ -21,4 +17,6 @@ script:
   - npm test
   - npm run e2e
   - npm run test:coverage
+
+after_success:
   - npm run deploy
