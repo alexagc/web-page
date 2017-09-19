@@ -1,1 +1,12 @@
-<h1 id="text">THIS WORKS</h1>
+<md-sidenav-container class="sidenav-container">
+  <md-sidenav #sidenav mode="over" opened="false">
+    <web-menu-list></web-menu-list>
+  </md-sidenav>
+  <md-toolbar color="primary">
+    <span>Custom Toolbar</span>
+    <button md-mini-fab class="side-menu-fab" (click)="sidenav.toggle()">
+      <md-icon>menu</md-icon>
+    </button>
+  </md-toolbar>
+  <h1>ROUTER</h1>
+</md-sidenav-container>

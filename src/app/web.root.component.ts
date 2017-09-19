@@ -5,5 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './web.root.component.html',
   styleUrls: ['./web.root.component.scss']
 })
-export class WebRootComponent {
-}
+export class WebRootComponent { }
