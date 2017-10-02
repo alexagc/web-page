@@ -15,11 +15,11 @@ install:
 
 jobs:
   include:
-    - stage: unit test
+    - stage: Tests
       script:
         npm test
         npm run test:coverage
-    - stage: e2e test
+    - stage: Tests
       script:
         npm run e2e
     - stage: deploy
