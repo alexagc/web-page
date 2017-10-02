@@ -12,11 +12,15 @@ cache:
 
 install:
   - npm install
-  
-script:
-  - npm test
-  - npm run e2e
-  - npm run test:coverage
 
-after_success:
-  - npm run deploy
+jobs:
+  include:
+    - stage: unit-test
+    script:
+      - npm test
+      - npm run test:coverage
+    - stage: e2e-test
+    script:
+      - npm run e2e
+    - stage: deploy
+    script: npm run deploy
