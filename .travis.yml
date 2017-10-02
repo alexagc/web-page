@@ -7,6 +7,7 @@ addons:
   chrome: stable
 
 cache:
+  bundler
   directories:
   - node_modules
 
