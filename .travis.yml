@@ -1,20 +1,17 @@
-sudo: required  
+sudo: required
 dist: trusty
 language: node_js
 node_js:
   - "8"
-addons:
-  chrome: stable
 
 cache:
   bundler: true
   directories:
-  - node_modules
-
+    - node_modules
 
 install:
   - npm install
-  
+
 script:
   - npm test
   - npm run e2e
@@ -23,12 +20,9 @@ script:
 jobs:
   include:
     - stage: Tests
-      script:
-        npm test
+      script: npm test
         npm run test:coverage
     - stage: Tests
-      script:
-        npm run e2e
+      script: npm run e2e
     - stage: deploy
-      script: 
-        npm run deploy
+      script: npm run deploy
