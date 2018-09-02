@@ -1,8 +1,6 @@
-[![Build Status](https://travis-ci.org/alexagc/web-page.svg?branch=master)](https://travis-ci.org/alexagc/web-page) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/391dd29e1dc4450e8ee5a82c3c39dce2)](https://www.codacy.com/app/alexcanal/web-page?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexagc/web-page&amp;utm_campaign=Badge_Grade) [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/391dd29e1dc4450e8ee5a82c3c39dce2)](https://www.codacy.com/app/alexcanal/web-page?utm_source=github.com&utm_medium=referral&utm_content=alexagc/web-page&utm_campaign=Badge_Coverage) [![dependencies Status](https://david-dm.org/alexagc/web-page/status.svg)](https://david-dm.org/alexagc/web-page) [![devDependencies Status](https://david-dm.org/alexagc/web-page/dev-status.svg)](https://david-dm.org/alexagc/web-page?type=dev)
-
 # WebPage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
 ## Development server
 
@@ -14,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
@@ -23,7 +21,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Further help
 
