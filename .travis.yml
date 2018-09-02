@@ -20,8 +20,8 @@ script:
 jobs:
   include:
     - stage: Tests
-      script: npm run test:coverage
-    - stage: Tests
+      script: npm run test && npm run test:coverage
+    - stage: Tests E2E
       script: npm run e2e
     - stage: deploy
       script: npm run deploy
